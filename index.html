@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WÉVA Design 織感教育設計</title>
+<meta name="description" content="WÉVA Design 織感教育設計｜以教育設計，編織人與城市間的溫度。">
+<meta property="og:title" content="WÉVA Design 織感教育設計">
+<meta property="og:description" content="以教育設計，編織人與城市間的溫度。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  @font-face {
+    font-family: "jf-openhuninn";
+    src: url("fonts/jf-openhuninn-subset.woff2") format("woff2");
+    font-display: swap;
+  }
+  :root {
+    --bg: #f7f5f0;
+    --ink: #2c302e;
+    --glass: rgba(255, 255, 255, .5);
+    --radius: 32px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "jf-openhuninn", "Nunito", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: .02em;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 24px 40px; }
+
+  .bar {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 64px; padding: 0 28px 0 22px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, .3);
+    border: .5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .logo { height: 46px; width: auto; display: block; }
+  .bar span { font-size: 13px; opacity: .7; }
+
+  .hero {
+    margin-top: 44px;
+    aspect-ratio: 846 / 392;
+    border-radius: var(--radius);
+    overflow: hidden;
+    position: relative;
+    background: #c2459a;
+  }
+  .hero::before {
+    content: ""; position: absolute; inset: -20%;
+    background:
+      radial-gradient(38% 46% at 52% 52%, #ffb36b 0%, rgba(255, 179, 107, 0) 70%),
+      radial-gradient(40% 55% at 18% 48%, #e23a6e 0%, rgba(226, 58, 110, 0) 72%),
+      radial-gradient(34% 50% at 86% 42%, #2fb7a0 0%, rgba(47, 183, 160, 0) 70%),
+      radial-gradient(60% 40% at 50% 8%, #5a3fc0 0%, rgba(90, 63, 192, 0) 72%),
+      radial-gradient(70% 45% at 50% 100%, #7a4fd0 0%, rgba(122, 79, 208, 0) 72%),
+      linear-gradient(100deg, #d6377f, #b44fc4 55%, #3fa9b0);
+    filter: blur(18px) saturate(1.1);
+  }
+
+  .card {
+    margin-top: 44px;
+    padding: 40px 36px 44px;
+    border-radius: var(--radius);
+    background: var(--glass);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+  }
+  .card p + p { margin-top: 1.4em; }
+  .en { opacity: .8; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2em; list-style: none; }
+  .tags li {
+    padding: 4px 16px; border-radius: 999px;
+    border: 1px solid rgba(44, 48, 46, .25);
+    font-size: 13px;
+  }
+  .mail {
+    display: inline-block; margin-top: 2.2em;
+    padding: 9px 24px; border-radius: 999px;
+    background: var(--ink); color: var(--bg);
+    text-decoration: none; font-weight: 400; font-size: 13px;
+    transition: opacity .2s;
+  }
+  .mail:hover, .mail:focus-visible { opacity: .75; }
+
+  footer { margin-top: 36px; text-align: center; font-size: 11px; opacity: .65; }
+
+  @media (max-width: 560px) {
+    .wrap { padding: 16px 14px 32px; }
+    .hero, .card { margin-top: 24px; }
+    .card { padding: 28px 22px 32px; }
+    .hero { aspect-ratio: 4 / 3; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <svg class="logo" viewBox="193.139 175.699 218.653 216.264" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wéva">
+      <g transform="translate(190 159)" fill="#231f20">
+        <path d="M147.3 17.697q1.624 2.455-2.906 9.39c-15.336 23.5-27.007 48.81-35.015 75.922a579 579 0 0 0-9.157 34.125 939 939 0 0 0-7.453 34.47q-3.845 18.981-7.75 38a117 117 0 0 1-4.265 15.062 32 32 0 0 1-1.782 3.953 8 8 0 0 1-.421.937c-.563 1.133-1.391 1.985-2.485 2.547a7.4 7.4 0 0 1-3.484.86h-.188q-3.767-.083-6.047-2.907a34.3 34.3 0 0 1-4.187-7.328 97 97 0 0 1-4.75-16.812 252 252 0 0 1-4.187-28.422 885 885 0 0 1-3.329-44.516q-.002-.497-.156-1.187-.081-.434-.156-.938-.785 1.049-1.094 1.984a12.6 12.6 0 0 0-.453 1.86q-.081.346-.156.687-2.145 9.298-4.453 18.579a293 293 0 0 1-5.204 18.421 89 89 0 0 1-5.375 13.516 39.6 39.6 0 0 1-4 6.156q-1.861 2.203-4.765 2.922c-1.93.477-3.828.313-5.703-.5q-2.814-1.219-4.438-4.828a74 74 0 0 1-3.062-9.531A190 190 0 0 1 7.55 161.54a485 485 0 0 1-4.188-43.391 204 204 0 0 1 .625-28.125q.153-1.935.656-3.828c.52-1.344 1.54-1.961 3.063-1.86 1.656 0 2.484.805 2.484 2.407q-.08 5.689-.437 11.297a207 207 0 0 0-.078 17.828q.357 8.86 1.125 17.812.937 10.581 2.297 21.11a283 283 0 0 0 1.859 13.797 142 142 0 0 0 2.89 13.593 41 41 0 0 0 2.407 6.547q.856 1.968 1.672 2 .81.047 2.093-1.734a37 37 0 0 0 2.016-3.25 47 47 0 0 0 3.094-6.438q1.278-3.279 2.36-6.687a273 273 0 0 0 5.327-18.438 784 784 0 0 0 4.469-18.797q.358-1.544.703-2.984a393 393 0 0 1 3.484-13.281q.341-1.467.782-2.828a28 28 0 0 1 1.5-4.188c.695-1.363 1.875-2.07 3.531-2.125 1.344-.101 2.367.102 3.078.61q1.06.751 1.328 2.875.434 3.41.516 6.937c.226 11.7.797 23.398 1.703 35.094.125 1.136.21 2.273.266 3.406q.656 8.876 1.5 17.781c.57 5.938 1.328 11.82 2.265 17.656a177 177 0 0 0 2.281 12.485q1.358 6.188 3.407 12.234a.33.33 0 0 0 .078.188 41 41 0 0 0 1.625 4.297 15.7 15.7 0 0 0 2.484 3.875q.844-.188 1.172-.703.328-.503.531-1 .076-.27.157-.422a99 99 0 0 0 4.53-15.532 5656 5656 0 0 0 5.032-24.718 8468 8468 0 0 0 5.11-25.297 736 736 0 0 1 8.156-35.563 493 493 0 0 1 10.328-35q12.78-37.81 35.625-70.312 3.216-3.64 4.844-1.172m0 0"/>
+        <path d="M148.932 156.697a8 8 0 0 1 1.656-.781q.81-.264 1.063.047.264.3-.672 1.39-2.908 3.328-6.954 6.094a53 53 0 0 1-8.312 4.672 38.7 38.7 0 0 1-7.031 2.406c-2.461.594-4.899.727-7.313.39q-3.626-.512-6.61-3.218c-3.023-2.79-4.269-6.203-3.75-10.234.438-3.196 1.68-5.91 3.735-8.141q3.077-3.356 7.766-4.563a20.6 20.6 0 0 1 7.828-.187 8.3 8.3 0 0 1 3.25 1.203c.906.688 1.398 1.5 1.484 2.438q.14 1.395-1.062 2.671-2.472 2.204-5.734 2.625-3.645.628-7.313.782-1.782.001-2.5.734-.721.736-.828 2.516-.58 4.846 3.094 7.906 2.279 1.815 5.546 1.547 3.28-.263 6.954-1.75c2.457-1 4.859-2.164 7.203-3.5a161 161 0 0 0 6.36-3.781q1.201-.762 2.14-1.266m-26.922-6.906q-.001.08-.125.078-.16.157-.406.375a10 10 0 0 0-.47.437q-.203.205-.202.281.076.27 1.39.141 1.325-.14 2.907-.469 1.591-.327 2.656-.89c.707-.375.922-.82.64-1.344a2.2 2.2 0 0 0-1.125-.656c-1.03 0-1.976.203-2.828.61-.855.398-1.668.874-2.437 1.437m10.297-20.22c.289-.437.672-.71 1.14-.827a4.6 4.6 0 0 1 1.5-.094h.266c.207.055.426.078.656.078 1.188.281 1.852.684 2 1.203q.217.769-.422 1.625-.643.845-1.375 1.5a37 37 0 0 0-3.53 4.531q-1.519 2.145-2.673 3.376-1.16 1.238-1.734.312-.704-.545-.75-1.219-.035-.668.234-1.453a16 16 0 0 1 1.578-4.125 45 45 0 0 1 2.344-3.781q.342-.609.766-1.125m0 0"/>
+        <path d="M177.706 155.134q2.907-.76 2.344.094-.564.846-3.782 1.703c-1.593.406-2.976.61-4.14.61q-1.753 0-3.172-1.125l-.703 2.328a476 476 0 0 1-1.36 4.344 22 22 0 0 1-2.468 5.609q-1.361 2.204-3.594 2.984-2.22.785-4.36-.031-2.125-.824-3.484-3.297a26 26 0 0 1-2.281-7.484 68 68 0 0 1-1.547-11.766 14.4 14.4 0 0 1 .078-2.64c.176-1.133.883-1.704 2.125-1.704q1.406.082 1.688 1.657c.195 1.043.297 2.105.297 3.187 0 .418.023.766.078 1.047q0 .58.375 3.86.388 3.27 1.156 6.984.779 3.72 1.89 5.672 1.11 1.956 2.61-.094a14 14 0 0 0 2.063-4.766 319 319 0 0 0 2.75-10.219q.497-2.403 1.937-4.343 1.547-1.887 4.031-.938.576.16.922.594.34.423.234.922-.081.626-.234 1.281-.423 1.285-.64 2.563-.223 1.265.14 1.968c.383.575 1.313.97 2.781 1.188q2.215.328 4.266-.188m0 0"/>
+        <path d="M221.61 155.494q-1.065 3.252-4.219 7.453-3.157 4.206-7.89 5.406-4.722 1.207-8.172-.328-3.44-1.53-3.797-8.203-3.908 7.594-7.453 9.734-3.55 2.128-7.375 1.625-4.348-.703-5.875-3.375-1.531-2.67-1.016-6.172a21.5 21.5 0 0 1 2.125-6.718q1.278-2.403 3.547-4.453 2.262-2.06 4.734-3.22 3.061-1.545 6.157-1.468c2.07.055 4.281.734 6.625 2.047.05.055.078 0 .078-.156q-.002-.342.172-.86.187-.527.61-.844c.769-.57 1.687-.859 2.75-.859q1.593 0 2.437 1.594.151 2.05-.422 5.234-1.284 6.973 0 10.031c.851 2.043 2.36 2.993 4.515 2.844 2.157-.144 4.946-2.273 8.375-6.39q5.156-6.17 4.094-2.922m-38.14 10.922q1.78 1.284 4.078-.344 2.31-1.64 4.437-4.61 2.14-2.981 3.594-5.968 1.452-2.982 1.61-4.422c-2.9-1.55-5.376-1.817-7.438-.797q-3.096 1.533-4.938 5-1.846 3.47-2.187 6.75c-.23 2.18.05 3.64.844 4.39m0 0"/>
+      </g>
+    </svg>
+    <span>網站改版中</span>
+  </header>
+
+  <div class="hero" role="img" aria-label=""></div>
+
+  <main class="card">
+    <p>Weaving Learning, Culture &amp; Impact<br>以教育設計 —— 編織人與城市間的溫度。</p>
+    <p>織感教育設計 WÉVA DESIGN，<br>是一支以人為本的教育設計與行動策劃團隊。<br>串連教育、社會議題、文化與地方生活，發起具影響力的專案與提案。</p>
+    <p class="en">WÉVA DESIGN is a human-centered studio focused on educational design and social action planning, weaving together education, culture, community, and life.</p>
+
+    <ul class="tags">
+      <li>教育設計</li>
+      <li>專案課程</li>
+      <li>教育策展</li>
+    </ul>
+
+    <a class="mail" href="mailto:wevadesignstudio@gmail.com">wevadesignstudio@gmail.com</a>
+  </main>
+
+  <footer>&copy; 2026 WÉVA Design ・ Kaohsiung, Taiwan</footer>
+</div>
+</body>
+</html>
